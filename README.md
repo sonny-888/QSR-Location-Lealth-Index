@@ -56,8 +56,14 @@ as thirteen independent, re-runnable stages (`01_data_quality_audit.py` through
 pip install -r requirements.txt
 ```
 
-Raw data (the Yelp Open Dataset export) isn't included in this repo due to size — the
-pipeline expects the same CSV exports described in the technical report's data section.
+Raw data (the Yelp Open Dataset export) is not included in this repository. The dataset
+is distributed under Yelp's own licence, which does not permit redistributing the raw
+data itself, and the review data is real user-generated content tied to real Yelp
+accounts, so republishing it here would not be appropriate for data protection reasons.
+Anyone wanting to run the pipeline should download the dataset directly from Yelp,
+[here](https://business.yelp.com/data/resources/open-dataset/), under their own
+agreement to its terms — the pipeline expects the same CSV exports described in the
+technical report's data section.
 
 ## Key numbers
 
