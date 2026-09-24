@@ -70,7 +70,8 @@ report/         Full technical report (approach, model design, assumptions, limi
 presentation/   Executive presentation deck
 notebook/       End-to-end analysis notebook (EDA, NLP, scoring, validation)
 dashboard/      Self-contained interactive HTML dashboard + its build scripts
-figures/        Final chart assets used in the report and deck
+figures/        Chart assets from the report and deck, including figures/eda/ —
+                early exploratory diagnostics from the first pass through the data
 src/            Pipeline source: analysis/ (13-stage scoring pipeline) and
                 chart_pack_lib/ (chart generation scripts)
 requirements.txt
