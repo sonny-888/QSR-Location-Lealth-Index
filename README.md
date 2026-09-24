@@ -12,6 +12,10 @@ through the LSE Data Analytics Career Accelerator.
 
 ![Score distribution across the portfolio](figures/technical_report/fig_07_lhi_distribution_final.png)
 
+The full write-up is in [`report/`](report/QSR_Location_Health_Index_Technical_Report.pdf)
+and [`presentation/`](presentation/QSR_Location_Health_Index_Presentation.pptx) — what
+follows here is a summary.
+
 ## Approach
 
 The pipeline runs as thirteen independent, re-runnable stages: data quality audit, review
@@ -62,9 +66,11 @@ this project actually trusts.
 ## Repository structure
 
 ```
+report/         Full technical report (approach, model design, assumptions, limitations)
+presentation/   Executive presentation deck
 notebook/       End-to-end analysis notebook (EDA, NLP, scoring, validation)
 dashboard/      Self-contained interactive HTML dashboard + its build scripts
-figures/        Final chart assets from the analysis
+figures/        Final chart assets used in the report and deck
 src/            Pipeline source: analysis/ (13-stage scoring pipeline) and
                 chart_pack_lib/ (chart generation scripts)
 requirements.txt
