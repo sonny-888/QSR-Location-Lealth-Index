@@ -11,6 +11,8 @@ analysis, the NLP-based aspect-level sentiment model, building the Location Heal
 scoring system, and the interactive HTML operator's dashboard — the pieces in this repo
 reflect that work.
 
+![Score distribution across the portfolio](figures/technical_report/fig_07_lhi_distribution_final.png)
+
 ## What it does
 
 - **Scores every location 0–100** on four pillars, built from three independent methods
@@ -29,6 +31,8 @@ reflect that work.
   was just detecting review recency, not health. The corrected, leakage-audited model
   (0.832 ROC-AUC) is the one this project actually trusts — see the technical report for
   the full audit.
+
+![Naive vs. leakage-audited model comparison](figures/technical_report/fig_03_model_comparison_leaky_safe_final.png)
 
 ## Repository structure
 
