@@ -67,7 +67,6 @@ dashboard/      Self-contained interactive HTML dashboard + its build scripts
 figures/        Final chart assets from the analysis
 src/            Pipeline source: analysis/ (13-stage scoring pipeline) and
                 chart_pack_lib/ (chart generation scripts)
-about/          Individual reflection documenting my role on the wider project
 requirements.txt
 ```
 
@@ -108,5 +107,3 @@ to its terms.
 
 - No claim in this project describes current operating conditions — the underlying data
   is a historical snapshot through 19 January 2022.
-- `about/Individual_Reflection.pdf` is my own account of this project, written for the
-  course, documenting my specific role and contributions.
