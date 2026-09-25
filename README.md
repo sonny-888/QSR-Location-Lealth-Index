@@ -1,5 +1,13 @@
 # QSR Location Health Index
 
+**Employer Project | Python | Pandas | Scikit-learn | XGBoost | NLP**
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-3.0%2B-150458)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-1.9%2B-F7931E)
+![XGBoost](https://img.shields.io/badge/XGBoost-3.4-EB5E28)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 An individual project: a digital-health scorecard for quick-service restaurant (QSR)
 locations, built from the [Yelp Open Dataset](https://business.yelp.com/data/resources/open-dataset/).
 Scores 19,154 locations across four pillars (peer standing, engagement, momentum, and
